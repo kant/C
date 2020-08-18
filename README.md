@@ -1,2 +1,9 @@
 # C
-C langauge
+
+> C language
+
+```sh
+$
+
+```
+
