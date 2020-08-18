@@ -19,8 +19,9 @@
 
 #include <stdio.h>
 
+#include "./test2.c"
+
 int main() {
-  printf("Hello, World!\n");
-  // do something...
+  printf("test1\n");
   return 0;
 }
