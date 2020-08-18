@@ -62,6 +62,15 @@ $ gcc --help | echo > gcc-help.md
 $ gcc --help > gcc-help.md
 ```
 
+```sh
+# output help to a file ✅
+$ gcc --help | tee gcc-help.txt
+
+# > overwrite file
+$ gcc --help > gcc-help.txt
+# >> append data
+$ gcc --help >> gcc-help.txt
+```
 
 ## refs
 
