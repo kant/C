@@ -51,6 +51,16 @@ $ ./main.out
 # clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ```
 
+## gcc help
+
+```sh
+$ gcc --help
+# ❌
+$ gcc --help | echo > gcc-help.md
+
+# output help to a file ✅
+$ gcc --help > gcc-help.md
+```
 
 
 ## refs
