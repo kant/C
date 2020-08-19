@@ -3,6 +3,7 @@ OVERVIEW: clang LLVM compiler
 USAGE: clang [options] file...
 
 OPTIONS:
+```
   -###                    Print (but do not run) the commands to run for this compilation
   --analyzer-output <value>
                           Static analyzer report output format (html|plist|plist-multi-file|plist-html|text).
@@ -845,3 +846,4 @@ OPTIONS:
   -Xpreprocessor <arg>    Pass <arg> to the preprocessor
   -x <language>           Treat subsequent input files as having type <language>
   -z <arg>                Pass -z <arg> to the linker
+```
